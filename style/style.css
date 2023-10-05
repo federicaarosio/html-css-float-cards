@@ -9,3 +9,23 @@
 body {
   font-family: 'Fredoka', sans-serif;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border: slateblue solid 2px;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  float: left;
+  border: crimson solid 2px;
+  height: 100px;
+}
