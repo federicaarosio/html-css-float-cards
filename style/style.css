@@ -25,7 +25,23 @@ main {
 
 .column-third {
   width: calc(100% / 3);
+  /* sistemare il margine dal calc*/
   float: left;
+  margin-top: 20px;
+  background-color: lightyellow;
   border: crimson solid 2px;
   height: 100px;
+}
+
+.block {
+  background-color: #0f0e17;
+  height: 80px;
+  width: 300px;
+}
+
+.first-block
+
+.photo-profile {
+  height: 100%;
+  float: left;
 }
