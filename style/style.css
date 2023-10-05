@@ -23,6 +23,10 @@ main {
   border: slateblue solid 2px;
 }
 
+h2 {
+  font-size: 15px;
+}
+
 .column-third {
   width: calc(100% / 3);
   /* sistemare il margine dal calc*/
@@ -36,12 +40,29 @@ main {
 .block {
   background-color: #0f0e17;
   height: 80px;
-  width: 300px;
+  width: 320px;
 }
 
 .first-block
 
+
 .photo-profile {
   height: 100%;
   float: left;
+}
+
+.text-profile-wrapper {
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.white-text {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.mail {
+  color: #4db4d6;
 }
