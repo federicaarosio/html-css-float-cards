@@ -38,9 +38,10 @@ h2 {
   margin-top: 1.5rem;
 }
 
-.block {
+.third-column {
   float: left;
-  width: calc ((100% / 3) - 20px);
+  width: calc ((100% / 3) - 90px);
+  margin-left: 30px;
   background-color: #0f0e17;
   height: 80px;
   width: 320px;
