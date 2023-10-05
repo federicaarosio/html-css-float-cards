@@ -21,30 +21,31 @@ main {
   margin: 0 auto;
   text-align: center;
   border: slateblue solid 2px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #e52d6e;
 }
 
 h2 {
   font-size: 15px;
 }
 
-.column-third {
-  width: calc(100% / 3);
-  /* sistemare il margine dal calc*/
-  float: left;
-  margin-top: 20px;
-  background-color: lightyellow;
-  border: crimson solid 2px;
-  height: 100px;
+.main-text {
+  font-size: .9rem;
+  margin-top: 1.5rem;
 }
 
 .block {
+  float: left;
+  width: calc ((100% / 3) - 20px);
   background-color: #0f0e17;
   height: 80px;
   width: 320px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
-.first-block
 
 
 .photo-profile {
