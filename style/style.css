@@ -20,7 +20,6 @@ main {
   width: 70%;
   margin: 0 auto;
   text-align: center;
-  border: slateblue solid 2px;
   margin-top: 40px;
 }
 
@@ -42,6 +41,7 @@ h2 {
   float: left;
   width: calc ((100% / 3) - 90px);
   margin-left: 30px;
+  margin-top: 40px;
   background-color: #0f0e17;
   height: 80px;
   width: 320px;
