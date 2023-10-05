@@ -41,6 +41,7 @@ h2 {
   background-color: #0f0e17;
   height: 80px;
   width: 320px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .first-block
